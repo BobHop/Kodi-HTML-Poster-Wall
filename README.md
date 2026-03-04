@@ -8,7 +8,7 @@ This script generates an HTML poster wall from an XML-exported Kodi database. It
 
 1. In Kodi, export your media database (only movies and TV shows are supported) to a local folder, as a single file. It will create a "videodb.xml" file, along with a handful of subfolders containing lots of images: you can deleted all of those images as they won't be used.
 
-2. Place this .py script in the same folder as "videodb.xml" and run it. All the poster images will be downloaded (it can take a while so be patient!) in an "images" subfolder, then an "index.html" file will be created.
+2. Place this .py script in the same folder as "videodb.xml" and run it. All the poster images will be downloaded (it can take a while so be patient!) in an "_images" subfolder, then an "index.html" file will be created.
 
 3. The poster images will be about 1000\*1500 pixels large; that's huge, so use your favourite tool to batch-resize them all to something lighter (e.g. 400*600).
 
