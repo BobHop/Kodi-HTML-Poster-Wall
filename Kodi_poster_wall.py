@@ -17,8 +17,8 @@
 #
 # 2. Place this .py script in the same folder as "videodb.xml"
 # and run it. All the poster images will be downloaded (it can
-# take a while so be patient!) in an "images" subfolder, then an
-# "index.html" file will be created.
+# take a while so be patient!) in an "_images" subfolder, then
+# an "index.html" file will be created.
 #
 # 3. The poster images will be about 1000*1500 pixels large;
 # that's huge, so use your favourite tool to batch-resize them
@@ -479,3 +479,4 @@ if __name__ == '__main__':
         print("❌ Erreur : le fichier videodb.xml n'a pas été trouvé")
     except Exception as e:
         print(f"❌ Erreur : {e}")
+
